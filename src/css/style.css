@@ -1,0 +1,329 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.logo .logo_img  {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 14px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+
+h1 {
+    margin-top: 53px;
+    margin-bottom: 0; 
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 41px;
+    font-weight: 900;
+    color: #F9BF3B;
+}
+
+.simple {
+    position: relative;
+}
+
+.simple .title_big {
+    text-align: center;
+    margin: 5px 0;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.simple .line {
+    height: 2px;
+    width: 292px;
+    position: absolute;
+    bottom: 42px;
+    background: #fff;
+}
+
+.simple .line.second {
+    left: 847px;
+}
+
+.promo {
+    height: 800px;
+    padding: 38px 0 62px 0;
+    background: url('../img/bg/main.png') center center/cover no-repeat;
+}
+
+.promo .promo_text {
+    text-align: center;
+    margin-top: 18px;
+    padding: 0 13px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.promo .promo_text span {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #F9BF3B;
+}
+
+.promo .promo_btn, .gift .gift_btn {
+    padding: 24px 15px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    color: #FFFFFF;
+    font-size: 21px;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+}
+
+.promo .promo_btn:hover {
+    background: linear-gradient(0deg, #1597bf 0%, #23a8cd 100%);
+    transition: 0.4s;
+}
+
+.more {
+    margin-top: 72px;
+}
+
+.more .more_text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.waiting {
+    min-height: 607px;
+    background: #EFEFEF;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header, .finish .finish_header, .first-webinar .first-webinar_title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    color: #252525;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
+    width: 220px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 16px;
+    background: #F9BF3B;
+}
+
+.waiting .waiting_subheader, .first-webinar .first-webinar_subtitle  {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 23px;
+    font-weight: 400;
+    color: #4A4A4A;
+}
+
+.waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    width: 342px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 31px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #4A4A4A;
+}
+
+.optimization {
+    min-height: 547px;
+    padding: 102px 0 0 0;
+}
+
+.optimization .optimization_about {
+    margin-left: 391px;
+}
+
+.optimization .optimization_about .optimization_header, .first-webinar .first-webinar_date {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    color: #299CBD;
+}
+
+.optimization .optimization_about .optimization_descr {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.optimization .optimization_about .optimization_descr .optimization_text {
+    display: inline-block;
+    margin-top: 9px;
+}
+
+.optimization .optimization_about .optimization_text.bold {
+    font-weight: 700;
+}
+
+.optimization  .optimization_img {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 72px 0;
+    background: url('../img/bg/second.png') center center/cover no-repeat;
+}
+
+.finish .finish_header {
+    color: #fff;
+}
+
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_round {
+    width: 115px;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 100%;
+    background: #B4E2FF;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #EFEFEF;
+}
+
+.gift {
+    min-height: 630px;
+    padding: 88px 0;
+    background: #EFEFEF;
+}
+
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_descr {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    color: #252525;
+}
+
+.gift .gift_btn {
+    margin-top: 50px;
+}
+
+.first-webinar {
+    min-height: 515px;
+    padding: 90px 0 50px 0;
+}
+
+.first-webinar .first-webinar_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.first-webinar .first-webinar_title {
+    margin-top: 34px;
+}
+
+.first-webinar .first-webinar_date {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+.first-webinar .first-webinar_subtitle {
+    margin-top: 14px;
+}
+
+footer {
+    min-height: 166px;
+    padding: 75px 0 69px 0;
+    background: #1A1A1A;
+}
+
+.footer_links {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #888888;
+}
+
+.footer_links .footer_link {
+    color: #888888;
+}
+
+.footer_links .footer_link.number {
+    text-decoration: none;
+} 
